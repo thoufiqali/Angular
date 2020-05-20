@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import {HttpClient} from "@angular/common/http";
 import {Router} from "@angular/router";
 
-const baseUrl = 'http://localhost:8080/register';
+const baseUrl = 'http://localhost:8080/user/register';
 @Component({
   selector: 'app-register',
   templateUrl: './register.component.html',
